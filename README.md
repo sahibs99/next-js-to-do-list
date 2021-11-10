@@ -23,5 +23,5 @@ model ListItem {
 - https://next-auth.js.org/configuration/options
 - https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases-typescript-postgres/
 
-##
-- Vercel Deployment: https://next-js-to-do-list-zeta.vercel.app
+## Vercel Deployment
+-  https://next-js-to-do-list-zeta.vercel.app
