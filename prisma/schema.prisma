@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// A listItem schema consisting of a Primary Key, a task name, whether it is a priority, whether it is finished, and a string key called 
+// timeStart, allowing for users to write a concise time (such as time, or words like "NOW"/"RIGHT AWAY") or more vague descriptions like
+// "soon" or "later"
+model ListItem {
+  id        Int     @id @default(autoincrement())
+  task      String
+  priority  Boolean @default(false)
+  finished  Boolean @default(false)
+  timeStart String  @default("now")
+}
