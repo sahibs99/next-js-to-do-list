@@ -1,6 +1,6 @@
 ## To Do List
- A simple To-Do List created using Next.js, Prisma as the ORM for the Postgresql backend, and Next Auth (Google Auth) and JWT for Authentication
- A user must login before they can create, update, view , and delete to-do list items.
+ - A simple To-Do List created using Next.js, Prisma as the ORM for the Postgresql backend, and Next Auth (Google Auth) and JWT for Authentication
+ - A user must login before they can create, update, view , and delete to-do list items.
  
  
  ## ListItem Schema
