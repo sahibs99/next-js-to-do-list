@@ -13,7 +13,12 @@ model ListItem {
 }
 
 
-## References used:
+## References refered to:
 - https://nextjs.org/docs
 - https://www.youtube.com/watch?v=C6eH6zsPgSk&ab_channel=LeoRoese
 - https://www.youtube.com/watch?v=FMnlyi60avU&ab_channel=Prisma
+- https://www.prisma.io/docs/concepts/components/prisma-client/crud#get-a-filtered-list-of-records
+- https://www.youtube.com/watch?v=VputqwS4btU
+- https://www.youtube.com/watch?v=iW39Merz0zE&ab_channel=ColbyFayock
+- https://next-auth.js.org/configuration/options
+- https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases-typescript-postgres/
